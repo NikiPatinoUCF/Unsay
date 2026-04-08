@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ribs / Water Surface</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #080c12; overflow: hidden; }
+    canvas { display: block; }
+    #title {
+      position: fixed;
+      bottom: 28px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-family: Georgia, serif;
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      color: rgba(200, 190, 170, 0.28);
+      text-transform: uppercase;
+      pointer-events: none;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+  <div id="title">Ribs / Water Surface &nbsp;&mdash;&nbsp; Niki Patino</div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/p5.min.js"></script>
+  <script src="corpus.js"></script>
+  <script src="sketch.js"></script>
+</body>
+</html>
